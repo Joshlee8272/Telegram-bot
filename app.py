@@ -6,7 +6,7 @@ import threading, random, json
 from datetime import datetime, timedelta
 
 # ✅ Use environment variable for security
-TOKEN = os.environ.get("BOT_TOKEN", "PUT-YOUR-TOKEN-HERE")
+TOKEN = os.environ.get("BOT_TOKEN", "8332615999:AAFfvKCyUGvoWxBH4NVxvk4qmgMOMxwEmFk")
 bot = telebot.TeleBot(TOKEN)
 
 SEARCH_PATH = "./logs"      # Put .txt files here
